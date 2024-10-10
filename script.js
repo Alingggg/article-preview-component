@@ -7,11 +7,9 @@ shareButton.addEventListener("click", () => {
     shareContainer.classList.toggle("hidden");
     shareButton.classList.toggle("article-preview__share-button-container--dark");
     shareIcon.classList.toggle("article-preview__share-icon--dark")
-    // if (window.innerWidth < 800) {
-    //     shareIcon.classList.toggle("article-preview__share-button-container--mobile");
-    // }
 }); 
 
 shareButtonMobile.addEventListener("click", e => {
     shareContainer.classList.toggle("hidden");
+    shareButton.classList.toggle("hidden");
 });
